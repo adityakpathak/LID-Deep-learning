@@ -1,0 +1,5 @@
+In this task we have taken Hindi and English languages for the language identification problem in the image domain and also audio domain. We trained the CRNN model and got the accuracy of 0.847  and equal error rate is 0.1529 for 200 hours audio file(training data). Parameters taken for the tranining:  batch_size: 128, learning_rate: 0.001, num_epochs: 50, segment_length: 10
+pixel_per_second: 50
+
+In next work we have taken Hindi(Hn), English(EN), Bengali(Bn), Chinese(Mendarien), Arabic(Ab), as comperasion to hindi and english data is less. We got the training accuracy of 0.83.  
+ 
